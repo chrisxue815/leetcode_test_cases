@@ -1,0 +1,14 @@
+{
+  "test_cases": [
+    {
+      "j": "aA",
+      "s": "aAAbbbb",
+      "expected": 3
+    },
+    {
+      "j": "z",
+      "s": "ZZ",
+      "expected": 0
+    }
+  ]
+}
