@@ -1,0 +1,13 @@
+{
+  "test_cases": [
+    {
+      "words": [
+        "gin",
+        "zen",
+        "gig",
+        "msg"
+      ],
+      "expected": 2
+    }
+  ]
+}
