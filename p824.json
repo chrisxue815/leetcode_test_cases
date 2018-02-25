@@ -1,0 +1,16 @@
+{
+  "test_cases": [
+    {
+      "s": "I speak Goat Latin",
+      "expected": "Imaa peaksmaaa oatGmaaaa atinLmaaaaa"
+    },
+    {
+      "s": "The quick brown fox jumped over the lazy dog",
+      "expected": "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"
+    },
+    {
+      "s": "Each word consists of lowercase and uppercase letters only",
+      "expected": "Eachmaa ordwmaaa onsistscmaaaa ofmaaaaa owercaselmaaaaaa andmaaaaaaa uppercasemaaaaaaaa etterslmaaaaaaaaa onlymaaaaaaaaaa"
+    }
+  ]
+}
