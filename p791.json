@@ -1,0 +1,9 @@
+{
+  "test_cases": [
+    {
+      "s": "cba",
+      "t": "abcd",
+      "expected": "cbad"
+    }
+  ]
+}
