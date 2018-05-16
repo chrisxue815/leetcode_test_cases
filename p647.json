@@ -7,6 +7,14 @@
     {
       "s": "aaa",
       "expected": 6
+    },
+    {
+      "s": "abca",
+      "expected": 4
+    },
+    {
+      "s": "cabac",
+      "expected": 7
     }
   ]
 }
