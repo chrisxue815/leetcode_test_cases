@@ -1,0 +1,14 @@
+{
+  "test_cases": [
+    {
+      "word1": "horse",
+      "word2": "ros",
+      "expected": 3
+    },
+    {
+      "word1": "intention",
+      "word2": "execution",
+      "expected": 5
+    }
+  ]
+}
