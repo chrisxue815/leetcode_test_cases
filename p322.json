@@ -1,0 +1,14 @@
+{
+  "test_cases": [
+    {
+      "coins": [1, 2, 5],
+      "amount": 11,
+      "expected": 3
+    },
+    {
+      "coins": [2],
+      "amount": 3,
+      "expected": -1
+    }
+  ]
+}
