@@ -1,0 +1,20 @@
+{
+  "test_cases": [
+    {
+      "root": [1, 2, 3],
+      "expected": true
+    },
+    {
+      "root": [1, 2, 3, 4],
+      "expected": true
+    },
+    {
+      "root": [1, 2, 3, 4, null, null, null, 5],
+      "expected": false
+    },
+    {
+      "root": [1, 2, 3, 4, null, null, 5, 6, null, null, 7],
+      "expected": false
+    }
+  ]
+}
