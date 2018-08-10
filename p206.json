@@ -1,0 +1,16 @@
+{
+  "test_cases": [
+    {
+      "head": [1, 2, 3],
+      "expected": [3, 2, 1]
+    },
+    {
+      "head": [1],
+      "expected": [1]
+    },
+    {
+      "head": [],
+      "expected": []
+    }
+  ]
+}
