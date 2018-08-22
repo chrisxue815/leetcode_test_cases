@@ -1,0 +1,22 @@
+{
+  "test_cases": [
+    {
+      "buckets": 1000,
+      "minutesToDie": 15,
+      "minutesToTest": 60,
+      "expected": 5
+    },
+    {
+      "buckets": 65,
+      "minutesToDie": 15,
+      "minutesToTest": 59,
+      "expected": 4
+    },
+    {
+      "buckets": 3,
+      "minutesToDie": 15,
+      "minutesToTest": 59,
+      "expected": 1
+    }
+  ]
+}
