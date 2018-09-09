@@ -1,30 +1,9 @@
 {
   "test_cases": [
     {
-      "k": 3,
-      "nums": [4, 5, 8, 2],
-      "queries": [
-        {
-          "val": 3,
-          "expected": 4
-        },
-        {
-          "val": 5,
-          "expected": 5
-        },
-        {
-          "val": 10,
-          "expected": 5
-        },
-        {
-          "val": 9,
-          "expected": 8
-        },
-        {
-          "val": 4,
-          "expected": 8
-        }
-      ]
+      "functions": ["KthLargest","add","add","add","add","add"],
+      "parameters": [[3,[4,5,8,2]],[3],[5],[10],[9],[4]],
+      "expected": [null,4,5,5,8,8]
     }
   ]
 }
