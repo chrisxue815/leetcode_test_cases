@@ -1,0 +1,16 @@
+{
+  "test_cases": [
+    {
+      "str": "Hello",
+      "expected": "hello"
+    },
+    {
+      "str": "here",
+      "expected": "here"
+    },
+    {
+      "str": "LOVELY",
+      "expected": "lovely"
+    }
+  ]
+}
