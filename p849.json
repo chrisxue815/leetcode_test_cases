@@ -1,0 +1,12 @@
+{
+  "test_cases": [
+    {
+      "seats": [1,0,0,0,1,0,1],
+      "expected": 2
+    },
+    {
+      "seats": [1,0,0,0],
+      "expected": 3
+    }
+  ]
+}
