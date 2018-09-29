@@ -1,0 +1,29 @@
+{
+  "test_cases": [
+    {
+      "a": "ab",
+      "b": "ba",
+      "expected": true
+    },
+    {
+      "a": "ab",
+      "b": "ab",
+      "expected": false
+    },
+    {
+      "a": "aa",
+      "b": "aa",
+      "expected": true
+    },
+    {
+      "a": "aaaaaaabc",
+      "b": "aaaaaaacb",
+      "expected": true
+    },
+    {
+      "a": "",
+      "b": "aa",
+      "expected": false
+    }
+  ]
+}
