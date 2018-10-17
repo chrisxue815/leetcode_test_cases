@@ -1,0 +1,20 @@
+{
+  "test_cases": [
+    {
+      "a": ["a","b","c","a","c","c"],
+      "expected": 3
+    },
+    {
+      "a": ["aa","bb","ab","ba"],
+      "expected": 4
+    },
+    {
+      "a": ["abc","acb","bac","bca","cab","cba"],
+      "expected": 3
+    },
+    {
+      "a": ["abcd","cdab","adcb","cbad"],
+      "expected": 1
+    }
+  ]
+}
