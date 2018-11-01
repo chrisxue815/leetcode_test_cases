@@ -1,0 +1,9 @@
+{
+  "test_cases": [
+    {
+      "functions": ["RecentCounter","ping","ping","ping","ping"],
+      "parameters": [[],[1],[100],[3001],[3002]],
+      "expected": [null,1,2,3,3]
+    }
+  ]
+}
