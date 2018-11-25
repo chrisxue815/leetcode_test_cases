@@ -1,0 +1,19 @@
+{
+  "test_cases": [
+    {
+      "words": ["hello","leetcode"],
+      "order": "hlabcdefgijkmnopqrstuvwxyz",
+      "expected": true
+    },
+    {
+      "words": ["word","world","row"],
+      "order": "worldabcefghijkmnpqstuvxyz",
+      "expected": false
+    },
+    {
+      "words": ["apple","app"],
+      "order": "abcdefghijklmnopqrstuvwxyz",
+      "expected": false
+    }
+  ]
+}
