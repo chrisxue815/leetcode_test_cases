@@ -1,0 +1,12 @@
+{
+  "test_cases": [
+    {
+      "A": ["bella","label","roller"],
+      "expected": ["e","l","l"]
+    },
+    {
+      "A": ["cool","lock","cook"],
+      "expected": ["c","o"]
+    }
+  ]
+}
