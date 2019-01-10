@@ -1,0 +1,20 @@
+{
+  "test_cases": [
+    {
+      "A": [0,1,1],
+      "expected": [true,false,false]
+    },
+    {
+      "A": [1,1,1],
+      "expected": [false,false,false]
+    },
+    {
+      "A": [0,1,1,1,1,1],
+      "expected": [true,false,false,false,true,false]
+    },
+    {
+      "A": [1,1,1,0,1],
+      "expected": [false,false,false,false,false]
+    }
+  ]
+}
