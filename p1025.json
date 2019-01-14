@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "N": 1,
+      "expected": false
+    },
+    {
+      "N": 2,
+      "expected": true
+    },
+    {
+      "N": 3,
+      "expected": false
+    },
+    {
+      "N": 4,
+      "expected": true
+    },
+    {
+      "N": 5,
+      "expected": false
+    },
+    {
+      "N": 6,
+      "expected": true
+    },
+  ]
+}
