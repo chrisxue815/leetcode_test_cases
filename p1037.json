@@ -1,0 +1,24 @@
+{
+  "test_cases": [
+    {
+      "points": [[1,1],[2,3],[3,2]],
+      "expected": true
+    },
+    {
+      "points": [[1,1],[2,2],[3,3]],
+      "expected": false
+    },
+    {
+      "points": [[1,1],[1,2],[1,3]],
+      "expected": false
+    },
+    {
+      "points": [[1,1],[1,2],[2,1]],
+      "expected": true
+    },
+    {
+      "points": [[1,0],[1,1],[1,0]],
+      "expected": false
+    }
+  ]
+}
