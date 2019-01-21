@@ -1,0 +1,16 @@
+{
+  "test_cases": [
+    {
+      "instructions": "GGLLGG",
+      "expected": true
+    },
+    {
+      "instructions": "GG",
+      "expected": false
+    },
+    {
+      "instructions": "GL",
+      "expected": true
+    }
+  ]
+}
