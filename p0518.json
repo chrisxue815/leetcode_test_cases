@@ -1,23 +1,31 @@
 {
   "test_cases": [
     {
-      "amount": 5,
-      "coins": [1, 2, 5],
+      "args": {
+        "amount": 5,
+        "coins": [1, 2, 5]
+      },
       "expected": 4
     },
     {
-      "amount": 3,
-      "coins": [2],
+      "args": {
+        "amount": 3,
+        "coins": [2]
+      },
       "expected": 0
     },
     {
-      "amount": 10,
-      "coins": [10],
+      "args": {
+        "amount": 10,
+        "coins": [10]
+      },
       "expected": 1
     },
     {
-      "amount": 5000,
-      "coins": [1, 2],
+      "args": {
+        "amount": 5000,
+        "coins": [1, 2]
+      },
       "expected": 2501
     }
   ]

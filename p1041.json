@@ -1,15 +1,21 @@
 {
   "test_cases": [
     {
-      "instructions": "GGLLGG",
+      "args": {
+        "instructions": "GGLLGG"
+      },
       "expected": true
     },
     {
-      "instructions": "GG",
+      "args": {
+        "instructions": "GG"
+      },
       "expected": false
     },
     {
-      "instructions": "GL",
+      "args": {
+        "instructions": "GL"
+      },
       "expected": true
     }
   ]

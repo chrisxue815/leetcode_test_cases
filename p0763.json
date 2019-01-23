@@ -1,7 +1,9 @@
 {
   "test_cases": [
     {
-      "s": "ababcbacadefegdehijhklij",
+      "args": {
+        "s": "ababcbacadefegdehijhklij"
+      },
       "expected": [9, 7, 8]
     }
   ]

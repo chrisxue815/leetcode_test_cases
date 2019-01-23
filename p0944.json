@@ -1,26 +1,21 @@
 {
   "test_cases": [
     {
-      "a": [
-        "cba",
-        "daf",
-        "ghi"
-      ],
+      "args": {
+        "a": ["cba", "daf", "ghi"]
+      },
       "expected": 1
     },
     {
-      "a": [
-        "a",
-        "b"
-      ],
+      "args": {
+        "a": ["a", "b"]
+      },
       "expected": 0
     },
     {
-      "a": [
-        "zyx",
-        "wvu",
-        "tsr"
-      ],
+      "args": {
+        "a": ["zyx", "wvu", "tsr"]
+      },
       "expected": 3
     }
   ]

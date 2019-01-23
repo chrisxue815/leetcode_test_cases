@@ -1,13 +1,17 @@
 {
   "test_cases": [
     {
-      "word1": "sea",
-      "word2": "eat",
+      "args": {
+        "word1": "sea",
+        "word2": "eat"
+      },
       "expected": 2
     },
     {
-      "word1": "azzbc",
-      "word2": "abc",
+      "args": {
+        "word1": "azzbc",
+        "word2": "abc"
+      },
       "expected": 2
     }
   ]

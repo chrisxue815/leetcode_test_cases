@@ -1,11 +1,15 @@
 {
   "test_cases": [
     {
-      "prices": [1,2,3,0,2],
+      "args": {
+        "prices": [1, 2, 3, 0, 2]
+      },
       "expected": 3
     },
     {
-      "prices": [6,1,3,2,4,7],
+      "args": {
+        "prices": [6, 1, 3, 2, 4, 7]
+      },
       "expected": 6
     }
   ]

@@ -1,27 +1,39 @@
 {
   "test_cases": [
     {
-      "answers": [1, 1, 2],
+      "args": {
+        "answers": [1, 1, 2]
+      },
       "expected": 5
     },
     {
-      "answers": [10, 10, 10],
+      "args": {
+        "answers": [10, 10, 10]
+      },
       "expected": 11
     },
     {
-      "answers": [],
+      "args": {
+        "answers": []
+      },
       "expected": 0
     },
     {
-      "answers": [2, 2, 2],
+      "args": {
+        "answers": [2, 2, 2]
+      },
       "expected": 3
     },
     {
-      "answers": [2, 2, 2, 2],
+      "args": {
+        "answers": [2, 2, 2, 2]
+      },
       "expected": 6
     },
     {
-      "answers": [2, 2, 2, 2, 2, 2, 2],
+      "args": {
+        "answers": [2, 2, 2, 2, 2, 2, 2]
+      },
       "expected": 9
     }
   ]

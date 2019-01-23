@@ -1,12 +1,14 @@
 {
   "test_cases": [
     {
-      "accounts": [
-        ["John", "johnsmith@mail.com", "john00@mail.com"],
-        ["John", "johnnybravo@mail.com"],
-        ["John", "johnsmith@mail.com", "john_newyork@mail.com"],
-        ["Mary", "mary@mail.com"]
-      ],
+      "args": {
+        "accounts": [
+          ["John", "johnsmith@mail.com", "john00@mail.com"],
+          ["John", "johnnybravo@mail.com"],
+          ["John", "johnsmith@mail.com", "john_newyork@mail.com"],
+          ["Mary", "mary@mail.com"]
+        ]
+      },
       "expected": [
         ["John", "john00@mail.com", "john_newyork@mail.com", "johnsmith@mail.com"],
         ["John", "johnnybravo@mail.com"],
@@ -14,15 +16,17 @@
       ]
     },
     {
-      "accounts": [
-        ["David","David0@m.co","David1@m.co"],
-        ["David","David3@m.co","David4@m.co"],
-        ["David","David4@m.co","David5@m.co"],
-        ["David","David2@m.co","David3@m.co"],
-        ["David","David1@m.co","David2@m.co"]
-      ],
+      "args": {
+        "accounts": [
+          ["David", "David0@m.co", "David1@m.co"],
+          ["David", "David3@m.co", "David4@m.co"],
+          ["David", "David4@m.co", "David5@m.co"],
+          ["David", "David2@m.co", "David3@m.co"],
+          ["David", "David1@m.co", "David2@m.co"]
+        ]
+      },
       "expected": [
-        ["David","David0@m.co","David1@m.co","David2@m.co","David3@m.co","David4@m.co","David5@m.co"]
+        ["David", "David0@m.co", "David1@m.co", "David2@m.co", "David3@m.co", "David4@m.co", "David5@m.co"]
       ]
     }
   ]

@@ -1,23 +1,31 @@
 {
   "test_cases": [
     {
-      "root": [5, 3, 6, 2, 4, null, 7],
-      "k": 9,
+      "args": {
+        "root": [5, 3, 6, 2, 4, null, 7],
+        "k": 9
+      },
       "expected": true
     },
     {
-      "root": [5, 3, 6, 2, 4, null, 7],
-      "k": 28,
+      "args": {
+        "root": [5, 3, 6, 2, 4, null, 7],
+        "k": 28
+      },
       "expected": false
     },
     {
-      "root": [1],
-      "k": 2,
+      "args": {
+        "root": [1],
+        "k": 2
+      },
       "expected": false
     },
     {
-      "root": [1, 0, 1],
-      "k": 2,
+      "args": {
+        "root": [1, 0, 1],
+        "k": 2
+      },
       "expected": true
     }
   ]

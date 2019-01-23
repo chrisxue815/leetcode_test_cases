@@ -1,20 +1,36 @@
 {
   "test_cases": [
     {
-      "s": "abbxxxxzzy",
-      "expected": [[3,6]]
+      "args": {
+        "s": "abbxxxxzzy"
+      },
+      "expected": [
+        [3, 6]
+      ]
     },
     {
-      "s": "abc",
+      "args": {
+        "s": "abc"
+      },
       "expected": []
     },
     {
-      "s": "abcdddeeeeaabbbcd",
-      "expected": [[3,5],[6,9],[12,14]]
+      "args": {
+        "s": "abcdddeeeeaabbbcd"
+      },
+      "expected": [
+        [3, 5],
+        [6, 9],
+        [12, 14]
+      ]
     },
     {
-      "s": "aaa",
-      "expected": [[0, 2]]
+      "args": {
+        "s": "aaa"
+      },
+      "expected": [
+        [0, 2]
+      ]
     }
   ]
 }

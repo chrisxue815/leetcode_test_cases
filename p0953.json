@@ -1,18 +1,24 @@
 {
   "test_cases": [
     {
-      "words": ["hello","leetcode"],
-      "order": "hlabcdefgijkmnopqrstuvwxyz",
+      "args": {
+        "words": ["hello", "leetcode"],
+        "order": "hlabcdefgijkmnopqrstuvwxyz"
+      },
       "expected": true
     },
     {
-      "words": ["word","world","row"],
-      "order": "worldabcefghijkmnpqstuvxyz",
+      "args": {
+        "words": ["word", "world", "row"],
+        "order": "worldabcefghijkmnpqstuvxyz"
+      },
       "expected": false
     },
     {
-      "words": ["apple","app"],
-      "order": "abcdefghijklmnopqrstuvwxyz",
+      "args": {
+        "words": ["apple", "app"],
+        "order": "abcdefghijklmnopqrstuvwxyz"
+      },
       "expected": false
     }
   ]

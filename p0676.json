@@ -1,38 +1,42 @@
 {
   "test_cases": [
     {
-      "dict": ["hello", "leetcode"],
-      "searches": [
-        {
-          "word": "hello",
-          "expected": false
-        },
-        {
-          "word": "hhllo",
-          "expected": true
-        },
-        {
-          "word": "hell",
-          "expected": false
-        },
-        {
-          "word": "leetcoded",
-          "expected": false
-        }
-      ]
+      "args": {
+        "dict": ["hello", "leetcode"],
+        "searches": [
+          {
+            "word": "hello",
+            "expected": false
+          },
+          {
+            "word": "hhllo",
+            "expected": true
+          },
+          {
+            "word": "hell",
+            "expected": false
+          },
+          {
+            "word": "leetcoded",
+            "expected": false
+          }
+        ]
+      }
     },
     {
-      "dict": ["hello", "hallo"],
-      "searches": [
-        {
-          "word": "hello",
-          "expected": true
-        },
-        {
-          "word": "hallo",
-          "expected": true
-        }
-      ]
+      "args": {
+        "dict": ["hello", "hallo"],
+        "searches": [
+          {
+            "word": "hello",
+            "expected": true
+          },
+          {
+            "word": "hallo",
+            "expected": true
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,11 +1,15 @@
 {
   "test_cases": [
     {
-      "words": ["w","wo","wor","worl", "world"],
+      "args": {
+        "words": ["w", "wo", "wor", "worl", "world"]
+      },
       "expected": "world"
     },
     {
-      "words": ["a", "banana", "app", "appl", "ap", "apply", "apple"],
+      "args": {
+        "words": ["a", "banana", "app", "appl", "ap", "apply", "apple"]
+      },
       "expected": "apple"
     }
   ]

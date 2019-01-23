@@ -1,19 +1,27 @@
 {
   "test_cases": [
     {
-      "target": 2,
+      "args": {
+        "target": 2
+      },
       "expected": 3
     },
     {
-      "target": 3,
+      "args": {
+        "target": 3
+      },
       "expected": 2
     },
     {
-      "target": 4,
+      "args": {
+        "target": 4
+      },
       "expected": 3
     },
     {
-      "target": 5,
+      "args": {
+        "target": 5
+      },
       "expected": 5
     }
   ]

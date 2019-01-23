@@ -1,23 +1,33 @@
 {
   "test_cases": [
     {
-      "deck": [1,2,3,4,4,3,2,1],
+      "args": {
+        "deck": [1, 2, 3, 4, 4, 3, 2, 1]
+      },
       "expected": true
     },
     {
-      "deck": [1,1,1,2,2,2,3,3],
+      "args": {
+        "deck": [1, 1, 1, 2, 2, 2, 3, 3]
+      },
       "expected": false
     },
     {
-      "deck": [1],
+      "args": {
+        "deck": [1]
+      },
       "expected": false
     },
     {
-      "deck": [1,1],
+      "args": {
+        "deck": [1, 1]
+      },
       "expected": true
     },
     {
-      "deck": [1,1,2,2,2,2],
+      "args": {
+        "deck": [1, 1, 2, 2, 2, 2]
+      },
       "expected": true
     }
   ]

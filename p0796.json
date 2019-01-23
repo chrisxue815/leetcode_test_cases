@@ -1,18 +1,24 @@
 {
   "test_cases": [
     {
-      "a": "abcde",
-      "b": "cdeab",
+      "args": {
+        "a": "abcde",
+        "b": "cdeab"
+      },
       "expected": true
     },
     {
-      "a": "abcde",
-      "b": "abced",
+      "args": {
+        "a": "abcde",
+        "b": "abced"
+      },
       "expected": false
     },
     {
-      "a": "",
-      "b": "",
+      "args": {
+        "a": "",
+        "b": ""
+      },
       "expected": true
     }
   ]

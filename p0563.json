@@ -1,7 +1,9 @@
 {
   "test_cases": [
     {
-      "root": [1, 2, 3],
+      "args": {
+        "root": [1, 2, 3]
+      },
       "expected": 1
     }
   ]

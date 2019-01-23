@@ -1,13 +1,17 @@
 {
   "test_cases": [
     {
-      "j": "aA",
-      "s": "aAAbbbb",
+      "args": {
+        "j": "aA",
+        "s": "aAAbbbb"
+      },
       "expected": 3
     },
     {
-      "j": "z",
-      "s": "ZZ",
+      "args": {
+        "j": "z",
+        "s": "ZZ"
+      },
       "expected": 0
     }
   ]

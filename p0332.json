@@ -1,11 +1,26 @@
 {
   "test_cases": [
     {
-      "tickets": [["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]],
+      "args": {
+        "tickets": [
+          ["MUC", "LHR"],
+          ["JFK", "MUC"],
+          ["SFO", "SJC"],
+          ["LHR", "SFO"]
+        ]
+      },
       "expected": ["JFK", "MUC", "LHR", "SFO", "SJC"]
     },
     {
-      "tickets": [["JFK", "SFO"], ["JFK", "ATL"], ["SFO", "ATL"], ["ATL", "JFK"], ["ATL", "SFO"]],
+      "args": {
+        "tickets": [
+          ["JFK", "SFO"],
+          ["JFK", "ATL"],
+          ["SFO", "ATL"],
+          ["ATL", "JFK"],
+          ["ATL", "SFO"]
+        ]
+      },
       "expected": ["JFK", "ATL", "JFK", "SFO", "ATL", "SFO"]
     }
   ]

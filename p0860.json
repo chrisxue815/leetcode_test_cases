@@ -1,19 +1,27 @@
 {
   "test_cases": [
     {
-      "bills": [5,5,5,10,20],
+      "args": {
+        "bills": [5, 5, 5, 10, 20]
+      },
       "expected": true
     },
     {
-      "bills": [5,5,10],
+      "args": {
+        "bills": [5, 5, 10]
+      },
       "expected": true
     },
     {
-      "bills": [10,10],
+      "args": {
+        "bills": [10, 10]
+      },
       "expected": false
     },
     {
-      "bills": [5,5,10,10,20],
+      "args": {
+        "bills": [5, 5, 10, 10, 20]
+      },
       "expected": false
     }
   ]

@@ -1,28 +1,38 @@
 {
   "test_cases": [
     {
-      "name": "alex",
-      "typed": "aaleex",
+      "args": {
+        "name": "alex",
+        "typed": "aaleex"
+      },
       "expected": true
     },
     {
-      "name": "saeed",
-      "typed": "ssaaedd",
+      "args": {
+        "name": "saeed",
+        "typed": "ssaaedd"
+      },
       "expected": false
     },
     {
-      "name": "leelee",
-      "typed": "lleeelee",
+      "args": {
+        "name": "leelee",
+        "typed": "lleeelee"
+      },
       "expected": true
     },
     {
-      "name": "laiden",
-      "typed": "laiden",
+      "args": {
+        "name": "laiden",
+        "typed": "laiden"
+      },
       "expected": true
     },
     {
-      "name": "a",
-      "typed": "aab",
+      "args": {
+        "name": "a",
+        "typed": "aab"
+      },
       "expected": false
     }
   ]

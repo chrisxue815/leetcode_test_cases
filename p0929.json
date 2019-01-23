@@ -1,11 +1,9 @@
 {
   "test_cases": [
     {
-      "emails": [
-        "test.email+alex@leetcode.com",
-        "test.e.mail+bob.cathy@leetcode.com",
-        "testemail+david@lee.tcode.com"
-      ],
+      "args": {
+        "emails": ["test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"]
+      },
       "expected": 2
     }
   ]

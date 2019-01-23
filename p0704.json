@@ -1,13 +1,17 @@
 {
   "test_cases": [
     {
-      "nums": [-1,0,3,5,9,12],
-      "target": 9,
+      "args": {
+        "nums": [-1, 0, 3, 5, 9, 12],
+        "target": 9
+      },
       "expected": 4
     },
     {
-      "nums": [-1,0,3,5,9,12],
-      "target": 2,
+      "args": {
+        "nums": [-1, 0, 3, 5, 9, 12],
+        "target": 2
+      },
       "expected": -1
     }
   ]
