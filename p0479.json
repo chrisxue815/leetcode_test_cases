@@ -1,0 +1,52 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "n": 1
+      },
+      "expected": 9
+    },
+    {
+      "args": {
+        "n": 2
+      },
+      "expected": 987
+    },
+    {
+      "args": {
+        "n": 3
+      },
+      "expected": 123
+    },
+    {
+      "args": {
+        "n": 4
+      },
+      "expected": 597
+    },
+    {
+      "args": {
+        "n": 5
+      },
+      "expected": 677
+    },
+    {
+      "args": {
+        "n": 6
+      },
+      "expected": 1218
+    },
+    {
+      "args": {
+        "n": 7
+      },
+      "expected": 877
+    },
+    {
+      "args": {
+        "n": 8
+      },
+      "expected": 475
+    }
+  ]
+}
