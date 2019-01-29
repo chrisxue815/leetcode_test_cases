@@ -1,0 +1,10 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "S": "abbaca"
+      },
+      "expected": "ca"
+    }
+  ]
+}
