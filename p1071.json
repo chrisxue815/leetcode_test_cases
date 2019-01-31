@@ -1,0 +1,25 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "str1": "ABCABC",
+        "str2": "ABC"
+      },
+      "expected": "ABC"
+    },
+    {
+      "args": {
+        "str1": "ABABAB",
+        "str2": "ABAB"
+      },
+      "expected": "AB"
+    },
+    {
+      "args": {
+        "str1": "LEET",
+        "str2": "CODE"
+      },
+      "expected": ""
+    }
+  ]
+}
