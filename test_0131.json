@@ -1,0 +1,43 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s": "aab"
+      },
+      "expected": [
+        ["a", "a", "b"],
+        ["aa", "b"]
+      ]
+    },
+    {
+      "args": {
+        "s": "aba"
+      },
+      "expected": [
+        ["a", "b", "a"],
+        ["aba"]
+      ]
+    },
+    {
+      "args": {
+        "s": "abba"
+      },
+      "expected": [
+        ["a", "b", "b", "a"],
+        ["a", "bb", "a"],
+        ["abba"]
+      ]
+    },
+    {
+      "args": {
+        "s": "abbab"
+      },
+      "expected": [
+        ["a", "b", "b", "a", "b"],
+        ["a", "bb", "a", "b"],
+        ["a", "b", "bab"],
+        ["abba", "b"]
+      ]
+    }
+  ]
+}
