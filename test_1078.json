@@ -1,0 +1,20 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "text": "alice is a good girl she is a good student",
+        "first": "a",
+        "second": "good"
+      },
+      "expected": ["girl","student"]
+    },
+    {
+      "args": {
+        "text": "we will we will rock you",
+        "first": "we",
+        "second": "will"
+      },
+      "expected": ["we","rock"]
+    }
+  ]
+}
