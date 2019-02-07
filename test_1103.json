@@ -1,0 +1,25 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "candies": 7,
+        "num_people": 4
+      },
+      "expected": [1,2,3,1]
+    },
+    {
+      "args": {
+        "candies": 10,
+        "num_people": 3
+      },
+      "expected": [5,2,3]
+    },
+    {
+      "args": {
+        "candies": 11,
+        "num_people": 3
+      },
+      "expected": [5,3,3]
+    }
+  ]
+}
