@@ -1,0 +1,12 @@
+{
+  "test_cases": [
+    {
+      "thread_order": [1,2,3],
+      "expected": "firstsecondthird"
+    },
+    {
+      "thread_order": [1,2,3],
+      "expected": "firstsecondthird"
+    }
+  ]
+}
