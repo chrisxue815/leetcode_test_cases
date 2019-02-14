@@ -1,0 +1,25 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s": "leetcode",
+        "wordDict": ["leet", "code"]
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "applepenapple",
+        "wordDict": ["apple", "pen"]
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "catsandog",
+        "wordDict": ["cats", "dog", "sand", "and", "cat"]
+      },
+      "expected": false
+    }
+  ]
+}
