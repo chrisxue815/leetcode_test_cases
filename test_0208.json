@@ -1,0 +1,9 @@
+{
+  "test_cases": [
+    {
+      "functions": ["Trie", "insert", "search", "search", "startsWith", "insert", "search"],
+      "args": [[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]],
+      "expected": [null, null, true, false, true, null, true]
+    }
+  ]
+}
