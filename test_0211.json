@@ -1,0 +1,9 @@
+{
+  "test_cases": [
+    {
+      "functions": ["WordDictionary", "addWord", "addWord", "addWord", "search", "search", "search", "search"],
+      "args": [[], ["bad"], ["dad"], ["mad"], ["pad"], ["bad"], [".ad"], ["b.."]],
+      "expected": [null, null, null, null, false, true, true, true]
+    }
+  ]
+}
