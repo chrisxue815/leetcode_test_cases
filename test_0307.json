@@ -1,0 +1,16 @@
+{
+  "test_cases": [
+    {
+      "functions": ["NumArray", "sumRange", "update", "sumRange"],
+      "args": [
+        [
+          [1, 3, 5]
+        ],
+        [0, 2],
+        [1, 2],
+        [0, 2]
+      ],
+      "expected": [null, 9, null, 8]
+    }
+  ]
+}
