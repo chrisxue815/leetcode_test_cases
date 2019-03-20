@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "n": 1
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "n": 2
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "n": 3
+      },
+      "expected": 2
+    },
+    {
+      "args": {
+        "n": 10
+      },
+      "expected": 16
+    }
+  ]
+}
