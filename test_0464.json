@@ -1,0 +1,32 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "maxChoosableInteger": 10,
+        "desiredTotal": 11
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "maxChoosableInteger": 10,
+        "desiredTotal": 0
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "maxChoosableInteger": 0,
+        "desiredTotal": 0
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "maxChoosableInteger": 5,
+        "desiredTotal": 50
+      },
+      "expected": false
+    }
+  ]
+}
