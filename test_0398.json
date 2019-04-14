@@ -1,0 +1,19 @@
+{
+  "test_cases": [
+    {
+      "functions": ["Solution", "pick", "pick"],
+      "args": [
+        [
+          [1,2,3,3,3]
+        ],
+        [3],
+        [1]
+      ],
+      "expected": [
+        null,
+        [2,3,4],
+        [0]
+      ]
+    }
+  ]
+}
