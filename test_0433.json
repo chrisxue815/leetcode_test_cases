@@ -1,0 +1,38 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "start": "AACCGGTT",
+        "end": "AACCGGTA",
+        "bank": [
+            "AACCGGTA"
+        ]
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "start": "AACCGGTT",
+        "end": "AAACGGTA",
+        "bank": [
+            "AACCGGTA",
+            "AACCGCTA",
+            "AAACGGTA"
+        ]
+      },
+      "expected": 2
+    },
+    {
+      "args": {
+        "start": "AAAAACCC",
+        "end": "AACCCCCC",
+        "bank": [
+          "AAAACCCC",
+          "AAACCCCC",
+          "AACCCCCC"
+        ]
+      },
+      "expected": 3
+    }
+  ]
+}
