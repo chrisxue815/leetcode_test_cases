@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "p": "a"
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "p": "cac"
+      },
+      "expected": 2
+    },
+    {
+      "args": {
+        "p": "zab"
+      },
+      "expected": 6
+    },
+    {
+      "args": {
+        "p": "zaba"
+      },
+      "expected": 6
+    }
+  ]
+}
