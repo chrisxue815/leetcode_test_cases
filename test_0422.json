@@ -1,0 +1,37 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "words": [
+          "abcd",
+          "bnrt",
+          "crmy",
+          "dtye"
+        ]
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "words": [
+          "abcd",
+          "bnrt",
+          "crm",
+          "dt"
+        ]
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "words": [
+          "ball",
+          "area",
+          "read",
+          "lady"
+        ]
+      },
+      "expected": false
+    }
+  ]
+}
