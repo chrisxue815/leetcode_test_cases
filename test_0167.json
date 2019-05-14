@@ -1,0 +1,18 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "numbers": [2, 7, 11, 15],
+        "target": 9
+      },
+      "expected": [1, 2]
+    },
+    {
+      "args": {
+        "numbers": [-5, -2, 7, 11, 15],
+        "target": 9
+      },
+      "expected": [2, 4]
+    }
+  ]
+}
