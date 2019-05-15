@@ -13,6 +13,20 @@
         "target": 9
       },
       "expected": [2, 4]
+    },
+    {
+      "args": {
+        "numbers": [5, 25, 75],
+        "target": 100
+      },
+      "expected": [2, 3]
+    },
+    {
+      "args": {
+        "numbers": [0, 0, 3, 4],
+        "target": 0
+      },
+      "expected": [1, 2]
     }
   ]
 }
