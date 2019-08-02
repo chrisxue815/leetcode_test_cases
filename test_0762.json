@@ -2,15 +2,15 @@
   "test_cases": [
     {
       "args": {
-        "l": 6,
-        "r": 10
+        "L": 6,
+        "R": 10
       },
       "expected": 4
     },
     {
       "args": {
-        "l": 10,
-        "r": 15
+        "L": 10,
+        "R": 15
       },
       "expected": 5
     }
