@@ -13,6 +13,41 @@
         "k": 6
       },
       "expected": true
+    },
+    {
+      "args": {
+        "nums": [1],
+        "k": 0
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "nums": [1, 1, 0, 1],
+        "k": 0
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "nums": [1, 1, 0, 0, 1],
+        "k": 0
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "nums": [0, 0],
+        "k": 0
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "nums": [2],
+        "k": 2
+      },
+      "expected": false
     }
   ]
 }
