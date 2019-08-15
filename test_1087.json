@@ -1,0 +1,16 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "S": "{a,b}c{d,e}f"
+      },
+      "expected": ["acdf","acef","bcdf","bcef"]
+    },
+    {
+      "args": {
+        "S": "abcd"
+      },
+      "expected": ["abcd"]
+    }
+  ]
+}
