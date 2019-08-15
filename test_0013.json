@@ -1,0 +1,124 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s": "I"
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "s": "II"
+      },
+      "expected": 2
+    },
+    {
+      "args": {
+        "s": "III"
+      },
+      "expected": 3
+    },
+    {
+      "args": {
+        "s": "IV"
+      },
+      "expected": 4
+    },
+    {
+      "args": {
+        "s": "V"
+      },
+      "expected": 5
+    },
+    {
+      "args": {
+        "s": "VI"
+      },
+      "expected": 6
+    },
+    {
+      "args": {
+        "s": "VII"
+      },
+      "expected": 7
+    },
+    {
+      "args": {
+        "s": "VIII"
+      },
+      "expected": 8
+    },
+    {
+      "args": {
+        "s": "IX"
+      },
+      "expected": 9
+    },
+    {
+      "args": {
+        "s": "X"
+      },
+      "expected": 10
+    },
+    {
+      "args": {
+        "s": "XI"
+      },
+      "expected": 11
+    },
+    {
+      "args": {
+        "s": "XIV"
+      },
+      "expected": 14
+    },
+    {
+      "args": {
+        "s": "XV"
+      },
+      "expected": 15
+    },
+    {
+      "args": {
+        "s": "XVI"
+      },
+      "expected": 16
+    },
+    {
+      "args": {
+        "s": "XX"
+      },
+      "expected": 20
+    },
+    {
+      "args": {
+        "s": "XL"
+      },
+      "expected": 40
+    },
+    {
+      "args": {
+        "s": "XLIV"
+      },
+      "expected": 44
+    },
+    {
+      "args": {
+        "s": "XLV"
+      },
+      "expected": 45
+    },
+    {
+      "args": {
+        "s": "XLVIII"
+      },
+      "expected": 48
+    },
+    {
+      "args": {
+        "s": "IL"
+      },
+      "expected": 49
+    }
+  ]
+}
