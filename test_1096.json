@@ -1,0 +1,16 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "expression": "{a,b}{c,{d,e}}"
+      },
+      "expected": ["ac","ad","ae","bc","bd","be"]
+    },
+    {
+      "args": {
+        "expression": "{{a,z},a{b,c},{ab,z}}"
+      },
+      "expected": ["a","ab","ac","z"]
+    }
+  ]
+}
