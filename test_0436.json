@@ -1,0 +1,22 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "intervals": [[1, 2]]
+      },
+      "expected": [-1]
+    },
+    {
+      "args": {
+        "intervals": [[3, 4], [2, 3], [1, 2]]
+      },
+      "expected": [-1, 0, 1]
+    },
+    {
+      "args": {
+        "intervals": [[1, 4], [2, 3], [3, 4]]
+      },
+      "expected": [-1, 2, -1]
+    }
+  ]
+}
