@@ -1,0 +1,14 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "strs": ["eat", "tea", "tan", "ate", "nat", "bat"]
+      },
+      "expected": [
+        ["eat", "tea", "ate"],
+        ["tan", "nat"],
+        ["bat"]
+      ]
+    }
+  ]
+}
