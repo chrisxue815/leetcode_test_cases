@@ -1,0 +1,25 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "source": "abc",
+        "target": "abcbc"
+      },
+      "expected": 2
+    },
+    {
+      "args": {
+        "source": "abc",
+        "target": "acdbc"
+      },
+      "expected": -1
+    },
+    {
+      "args": {
+        "source": "xyz",
+        "target": "xzyxz"
+      },
+      "expected": 3
+    }
+  ]
+}
