@@ -1,0 +1,25 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "ransomNote": "a",
+        "magazine": "b"
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "ransomNote": "aa",
+        "magazine": "ab"
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "ransomNote": "aa",
+        "magazine": "aab"
+      },
+      "expected": true
+    }
+  ]
+}

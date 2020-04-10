@@ -1,0 +1,22 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s": "leetcode"
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "s": "loveleetcode"
+      },
+      "expected": 2
+    },
+    {
+      "args": {
+        "s": "aabb"
+      },
+      "expected": -1
+    }
+  ]
+}
