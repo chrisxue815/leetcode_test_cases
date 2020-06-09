@@ -1,0 +1,16 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "N": 7
+      },
+      "expected": [
+        [0,0,0,null,null,0,0,null,null,0,0],
+        [0,0,0,null,null,0,0,0,0],
+        [0,0,0,0,0,0,0],
+        [0,0,0,0,0,null,null,null,null,0,0],
+        [0,0,0,0,0,null,null,0,0]
+      ]
+    }
+  ]
+}
