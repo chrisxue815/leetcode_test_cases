@@ -1,0 +1,44 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "root": [1,0,2],
+        "low": 1,
+        "high": 2
+      },
+      "expected": [1,null,2]
+    },
+    {
+      "args": {
+        "root": [3,0,4,null,2,null,null,1],
+        "low": 1,
+        "high": 3
+      },
+      "expected": [3,2,null,1]
+    },
+    {
+      "args": {
+        "root": [1],
+        "low": 1,
+        "high": 2
+      },
+      "expected": [1]
+    },
+    {
+      "args": {
+        "root": [1,null,2],
+        "low": 1,
+        "high": 3
+      },
+      "expected": [1,null,2]
+    },
+    {
+      "args": {
+        "root": [1,null,2],
+        "low": 2,
+        "high": 4
+      },
+      "expected": [2]
+    }
+  ]
+}
