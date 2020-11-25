@@ -1,0 +1,18 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "timeSeries": [1,4],
+        "duration": 2
+      },
+      "expected": 4
+    },
+    {
+      "args": {
+        "timeSeries": [1,2],
+        "duration": 2
+      },
+      "expected": 3
+    }
+  ]
+}
