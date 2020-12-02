@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "num": 2736
+      },
+      "expected": 7236
+    },
+    {
+      "args": {
+        "num": 9973
+      },
+      "expected": 9973
+    },
+    {
+      "args": {
+        "num": 31313
+      },
+      "expected": 33311
+    },
+    {
+      "args": {
+        "num": 11313
+      },
+      "expected": 31311
+    }
+  ]
+}
