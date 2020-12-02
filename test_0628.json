@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "nums": [1,2,3]
+      },
+      "expected": 6
+    },
+    {
+      "args": {
+        "nums": [1,2,3,4]
+      },
+      "expected": 24
+    },
+    {
+      "args": {
+        "nums": [-1,-2,-3]
+      },
+      "expected": -6
+    },
+    {
+      "args": {
+        "nums": [-100,-98,-1,2,3,4]
+      },
+      "expected": 39200
+    }
+  ]
+}
