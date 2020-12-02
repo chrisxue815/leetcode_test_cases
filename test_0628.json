@@ -23,6 +23,66 @@
         "nums": [-100,-98,-1,2,3,4]
       },
       "expected": 39200
+    },
+    {
+      "args": {
+        "nums": [1, 2, 3, -4, -5]
+      },
+      "expected": 60
+    },
+    {
+      "args": {
+        "nums": [1, 2, 3, -4]
+      },
+      "expected": 6
+    },
+    {
+      "args": {
+        "nums": [1, 2, -3, -4]
+      },
+      "expected": 24
+    },
+    {
+      "args": {
+        "nums": [1, 2, -3, 0]
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "nums": [1, 2, -3]
+      },
+      "expected": -6
+    },
+    {
+      "args": {
+        "nums": [1, -2, -3, -4]
+      },
+      "expected": 12
+    },
+    {
+      "args": {
+        "nums": [1, -2, 0]
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "nums": [1, 0, 0]
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "nums": [-1, -2, -3, 0]
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "nums": [-1, -2, -3, -4]
+      },
+      "expected": -6
     }
   ]
 }
