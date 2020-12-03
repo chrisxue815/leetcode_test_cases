@@ -2,7 +2,7 @@
   "test_cases": [
     {
       "args": {
-        "num_rows": 5
+        "numRows": 5
       },
       "expected": [
         [1],
