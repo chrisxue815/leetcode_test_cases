@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "S": "abcde",
+        "words": [
+          "a",
+          "bb",
+          "acd",
+          "ace"
+        ]
+      },
+      "expected": 3
+    },
+    {
+      "args": {
+        "S": "dsahjpjauf",
+        "words": [
+          "ahjpjau",
+          "ja",
+          "ahbwzgqnuk",
+          "tnmlanowax"
+        ]
+      },
+      "expected": 2
+    }
+  ]
+}
