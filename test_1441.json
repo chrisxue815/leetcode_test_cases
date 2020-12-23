@@ -1,0 +1,32 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "target": [1,3],
+        "n": 3
+      },
+      "expected": ["Push","Push","Pop","Push"]
+    },
+    {
+      "args": {
+        "target": [1,2,3],
+        "n": 3
+      },
+      "expected": ["Push","Push","Push"]
+    },
+    {
+      "args": {
+        "target": [1,2],
+        "n": 4
+      },
+      "expected": ["Push","Push"]
+    },
+    {
+      "args": {
+        "target": [2,3,4],
+        "n": 4
+      },
+      "expected": ["Push","Pop","Push","Push","Push"]
+    }
+  ]
+}
