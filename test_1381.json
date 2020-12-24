@@ -1,0 +1,9 @@
+{
+  "test_cases": [
+    {
+      "functions": ["CustomStack","push","push","pop","push","push","push","increment","increment","pop","pop","pop","pop"],
+      "args": [[3],[1],[2],[],[2],[3],[4],[5,100],[2,100],[],[],[],[]],
+      "expected": [null,null,null,2,null,null,null,null,null,103,202,201,-1]
+    }
+  ]
+}
