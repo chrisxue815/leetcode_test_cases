@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "S": "())"
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "S": "((("
+      },
+      "expected": 3
+    },
+    {
+      "args": {
+        "S": "()"
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "S": "()))(("
+      },
+      "expected": 4
+    }
+  ]
+}
