@@ -1,0 +1,32 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "S": "leet2code3",
+        "K": 10
+      },
+      "expected": "o"
+    },
+    {
+      "args": {
+        "S": "ha22",
+        "K": 5
+      },
+      "expected": "h"
+    },
+    {
+      "args": {
+        "S": "a2345678999999999999999",
+        "K": 1
+      },
+      "expected": "a"
+    },
+    {
+      "args": {
+        "S": "a23",
+        "K": 6
+      },
+      "expected": "a"
+    }
+  ]
+}
