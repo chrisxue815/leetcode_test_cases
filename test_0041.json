@@ -1,0 +1,40 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "nums": [1,2,0]
+      },
+      "expected": 3
+    },
+    {
+      "args": {
+        "nums": [3,4,-1,1]
+      },
+      "expected": 2
+    },
+    {
+      "args": {
+        "nums": [7,8,9,11,12]
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "nums": [0]
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "nums": [1,1]
+      },
+      "expected": 2
+    },
+    {
+      "args": {
+        "nums": [2,2]
+      },
+      "expected": 1
+    }
+  ]
+}
