@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "day": 31,
+        "month": 8,
+        "year": 2019
+      },
+      "expected": "Saturday"
+    },
+    {
+      "args": {
+        "day": 18,
+        "month": 7,
+        "year": 1999
+      },
+      "expected": "Sunday"
+    },
+    {
+      "args": {
+        "day": 15,
+        "month": 8,
+        "year": 1993
+      },
+      "expected": "Sunday"
+    }
+  ]
+}
