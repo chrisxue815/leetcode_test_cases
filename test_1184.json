@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "distance": [1,2,3,4],
+        "start": 0,
+        "destination": 1
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "distance": [1,2,3,4],
+        "start": 0,
+        "destination": 2
+      },
+      "expected": 3
+    },
+    {
+      "args": {
+        "distance": [1,2,3,4],
+        "start": 0,
+        "destination": 3
+      },
+      "expected": 4
+    }
+  ]
+}
