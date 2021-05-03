@@ -11,6 +11,12 @@
         "intervals": [[1,4],[4,5]]
       },
       "expected": [[1,5]]
+    },
+    {
+      "args": {
+        "intervals": [[1,4],[2,3]]
+      },
+      "expected": [[1,4]]
     }
   ]
 }
