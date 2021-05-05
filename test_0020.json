@@ -1,0 +1,40 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s": "()"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "()[]{}"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "(]"
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "s": "([)]"
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "s": "{[]}"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": ")"
+      },
+      "expected": false
+    }
+  ]
+}
