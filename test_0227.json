@@ -1,0 +1,64 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s": "3+2*2"
+      },
+      "expected": 7
+    },
+    {
+      "args": {
+        "s": " 3/2 "
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "s": " 3+5 / 2 "
+      },
+      "expected": 5
+    },
+    {
+      "args": {
+        "s": " 1 "
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "s": " 5/ 2 -1 "
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "s": " 1-5/ 2"
+      },
+      "expected": -1
+    },
+    {
+      "args": {
+        "s": "1-5/2*2+7*2/4-1"
+      },
+      "expected": -1
+    },
+    {
+      "args": {
+        "s": "2*3"
+      },
+      "expected": 6
+    },
+    {
+      "args": {
+        "s": "5/2"
+      },
+      "expected": 2
+    },
+    {
+      "args": {
+        "s": "14-3/2"
+      },
+      "expected": 13
+    }
+  ]
+}
