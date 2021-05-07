@@ -1,0 +1,18 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "students": [1,1,0,0],
+        "sandwiches": [0,1,0,1]
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "students": [1,1,1,0,0,1],
+        "sandwiches": [1,0,0,0,1,1]
+      },
+      "expected": 3
+    }
+  ]
+}
