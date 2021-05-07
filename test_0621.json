@@ -1,0 +1,46 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "tasks": ["A","A","A","B","B","B"],
+        "n": 2
+      },
+      "expected": 8
+    },
+    {
+      "args": {
+        "tasks": ["A","A","B","C","D","E"],
+        "n": 1
+      },
+      "expected": 6
+    },
+    {
+      "args": {
+        "tasks": ["A","A","B","B","C","C"],
+        "n": 1
+      },
+      "expected": 6
+    },
+    {
+      "args": {
+        "tasks": ["A","A","B","B","C","C","D","D"],
+        "n": 1
+      },
+      "expected": 8
+    },
+    {
+      "args": {
+        "tasks": ["A","A","A","B","B","B"],
+        "n": 0
+      },
+      "expected": 6
+    },
+    {
+      "args": {
+        "tasks": ["A","A","A","A","A","A","B","C","D","E","F","G"],
+        "n": 2
+      },
+      "expected": 16
+    }
+  ]
+}
