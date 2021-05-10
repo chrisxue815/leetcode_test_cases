@@ -1,0 +1,60 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "head": [1, 2, 3, 4, 5],
+        "left": 2,
+        "right": 4
+      },
+      "expected": [1, 4, 3, 2, 5]
+    },
+    {
+      "args": {
+        "head": [1, 2, 3, 4, 5],
+        "left": 1,
+        "right": 5
+      },
+      "expected": [5, 4, 3, 2, 1]
+    },
+    {
+      "args": {
+        "head": [1, 2, 3, 4, 5],
+        "left": 1,
+        "right": 3
+      },
+      "expected": [3, 2, 1, 4, 5]
+    },
+    {
+      "args": {
+        "head": [1, 2, 3, 4, 5],
+        "left": 3,
+        "right": 5
+      },
+      "expected": [1, 2, 5, 4, 3]
+    },
+    {
+      "args": {
+        "head": [1, 2, 3, 4, 5],
+        "left": 5,
+        "right": 5
+      },
+      "expected": [1, 2, 3, 4, 5]
+    },
+    {
+      "args": {
+        "head": [1, 2, 3, 4, 5],
+        "left": 1,
+        "right": 1
+      },
+      "expected": [1, 2, 3, 4, 5]
+    },
+    {
+      "args": {
+        "head": [1],
+        "left": 1,
+        "right": 1
+      },
+      "expected": [1]
+    }
+  ]
+}
