@@ -1,0 +1,34 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "strs": [
+          "abcd_e",
+          "abcd_fg",
+          "abcd_fh"
+        ]
+      },
+      "expected": "abcd_"
+    },
+    {
+      "args": {
+        "strs": [
+          "flower",
+          "flow",
+          "flight"
+        ]
+      },
+      "expected": "fl"
+    },
+    {
+      "args": {
+        "strs": [
+          "dog",
+          "racecar",
+          "car"
+        ]
+      },
+      "expected": ""
+    }
+  ]
+}
