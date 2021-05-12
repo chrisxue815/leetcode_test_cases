@@ -1,0 +1,39 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s1": "ab",
+        "s2": "eidbaooo"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s1": "ab",
+        "s2": "eidboaoo"
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "s1": "aab",
+        "s2": "eidabbaooo"
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "s1": "aab",
+        "s2": "eidaaabooo"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s1": "adc",
+        "s2": "dcda"
+      },
+      "expected": true
+    }
+  ]
+}
