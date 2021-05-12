@@ -1,0 +1,39 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s": "barfoothefoobarman",
+        "words": ["foo", "bar"]
+      },
+      "expected": [0, 9]
+    },
+    {
+      "args": {
+        "s": "wordgoodgoodgoodbestword",
+        "words": ["word", "good", "best", "word"]
+      },
+      "expected": []
+    },
+    {
+      "args": {
+        "s": "barfoofoobarthefoobarman",
+        "words": ["bar", "foo", "the"]
+      },
+      "expected": [6, 9, 12]
+    },
+    {
+      "args": {
+        "s": "wordgoodgoodgoodbestword",
+        "words": ["word", "good", "best", "good"]
+      },
+      "expected": [8]
+    },
+    {
+      "args": {
+        "s": "a",
+        "words": ["a"]
+      },
+      "expected": [0]
+    }
+  ]
+}
