@@ -17,6 +17,12 @@
         "s": "a"
       },
       "expected": "a"
+    },
+    {
+      "args": {
+        "s": "ac"
+      },
+      "expected": "a"
     }
   ]
 }
