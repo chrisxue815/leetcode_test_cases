@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s": "lee(t(c)o)de)"
+      },
+      "expected": "lee(t(c)o)de"
+    },
+    {
+      "args": {
+        "s": "a)b(c)d"
+      },
+      "expected": "ab(c)d"
+    },
+    {
+      "args": {
+        "s": "))(("
+      },
+      "expected": ""
+    },
+    {
+      "args": {
+        "s": "(a(b(c)d)"
+      },
+      "expected": "a(b(c)d)"
+    }
+  ]
+}
