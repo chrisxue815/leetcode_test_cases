@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "root": [1,2,2,3,4,4,3]
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "root": [1,2,2,null,3,null,3]
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "root": [9,-42,-42,null,76,76,null,null,13,null,13]
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "root": [2,3,3,4,5,5]
+      },
+      "expected": false
+    }
+  ]
+}
