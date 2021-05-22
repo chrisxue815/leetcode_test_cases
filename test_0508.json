@@ -1,0 +1,16 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "root": [5, 2, -3]
+      },
+      "expected": [2, -3, 4]
+    },
+    {
+      "args": {
+        "root": [5, 2, -5]
+      },
+      "expected": [2]
+    }
+  ]
+}
