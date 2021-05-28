@@ -1,0 +1,22 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "digits": "23"
+      },
+      "expected": ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
+    },
+    {
+      "args": {
+        "digits": ""
+      },
+      "expected": []
+    },
+    {
+      "args": {
+        "digits": "2"
+      },
+      "expected": ["a", "b", "c"]
+    }
+  ]
+}
