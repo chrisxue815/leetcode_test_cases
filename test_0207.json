@@ -2,7 +2,7 @@
   "test_cases": [
     {
       "args": {
-        "num_courses": 2,
+        "numCourses": 2,
         "prerequisites": [
           [1, 0]
         ]
@@ -11,7 +11,7 @@
     },
     {
       "args": {
-        "num_courses": 2,
+        "numCourses": 2,
         "prerequisites": [
           [1, 0],
           [0, 1]
