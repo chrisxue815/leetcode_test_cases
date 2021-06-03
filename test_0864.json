@@ -1,0 +1,34 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "grid": [
+          "@.a.#",
+          "###.#",
+          "b.A.B"
+        ]
+      },
+      "expected": 8
+    },
+    {
+      "args": {
+        "grid": [
+          "@..aA",
+          "..B#.",
+          "....b"
+        ]
+      },
+      "expected": 6
+    },
+    {
+      "args": {
+        "grid": [
+          "@...a",
+          ".###A",
+          "b.BCc"
+        ]
+      },
+      "expected": 10
+    }
+  ]
+}
