@@ -1,0 +1,34 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "grid": [" /","/ "]
+      },
+      "expected": 2
+    },
+    {
+      "args": {
+        "grid": [" /","  "]
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "grid": ["\\/","/\\"]
+      },
+      "expected": 4
+    },
+    {
+      "args": {
+        "grid": ["/\\","\\/"]
+      },
+      "expected": 5
+    },
+    {
+      "args": {
+        "grid": ["//","/ "]
+      },
+      "expected": 3
+    }
+  ]
+}
