@@ -1,0 +1,34 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "nestedList": "[[1,1],2,[1,1]]"
+      },
+      "expected": [1, 1, 2, 1, 1]
+    },
+    {
+      "args": {
+        "nestedList": "[[1,1],2,[],[1,1,[1,1]]]"
+      },
+      "expected": [1, 1, 2, 1, 1, 1, 1]
+    },
+    {
+      "args": {
+        "nestedList": "[1]"
+      },
+      "expected": [1]
+    },
+    {
+      "args": {
+        "nestedList": "[]"
+      },
+      "expected": []
+    },
+    {
+      "args": {
+        "nestedList": "[[]]"
+      },
+      "expected": []
+    }
+  ]
+}
