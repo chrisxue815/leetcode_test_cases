@@ -1,0 +1,9 @@
+{
+  "test_cases": [
+    {
+      "functions": ["MKAverage", "addElement", "addElement", "calculateMKAverage", "addElement", "calculateMKAverage", "addElement", "addElement", "addElement", "calculateMKAverage"],
+      "args": [[3, 1], [3], [1], [], [10], [], [5], [5], [5], []],
+      "expected": [null, null, null, -1, null, 3, null, null, null, 5]
+    }
+  ]
+}
