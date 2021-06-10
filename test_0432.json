@@ -1,0 +1,14 @@
+{
+  "test_cases": [
+    {
+      "functions": ["AllOne", "inc", "inc", "getMaxKey", "getMinKey", "inc", "getMaxKey", "getMinKey"],
+      "args": [[], ["hello"], ["hello"], [], [], ["leet"], [], []],
+      "expected": [null, null, null, "hello", "hello", null, "hello", "leet"]
+    },
+    {
+      "functions": ["AllOne","getMaxKey","getMinKey"],
+      "args": [[],[],[]],
+      "expected": [null,"",""]
+    }
+  ]
+}
