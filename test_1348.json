@@ -1,0 +1,14 @@
+{
+  "test_cases": [
+    {
+      "functions": ["TweetCounts","recordTweet","recordTweet","recordTweet","getTweetCountsPerFrequency","getTweetCountsPerFrequency","recordTweet","getTweetCountsPerFrequency"],
+      "args": [[],["tweet3",0],["tweet3",60],["tweet3",10],["minute","tweet3",0,59],["minute","tweet3",0,60],["tweet3",120],["hour","tweet3",0,210]],
+      "expected": [null,null,null,null,[2],[2,1],null,[4]]
+    },
+    {
+      "functions": ["TweetCounts","recordTweet","recordTweet","recordTweet","recordTweet","recordTweet","recordTweet","getTweetCountsPerFrequency","getTweetCountsPerFrequency"],
+      "args": [[],["tweet0",13],["tweet1",16],["tweet2",12],["tweet3",18],["tweet4",82],["tweet3",89],["day","tweet0",89,9471],["hour","tweet3",13,4024]],
+      "expected": [null,null,null,null,null,null,null,[0],[2,0]]
+    }
+  ]
+}
