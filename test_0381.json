@@ -1,0 +1,9 @@
+{
+  "test_cases": [
+    {
+      "functions": ["RandomizedCollection", "insert", "insert", "insert", "getRandom", "remove", "getRandom"],
+      "args": [[], [1], [1], [2], [], [1], []],
+      "expected": [null, true, false, true, 2, true, 1]
+    }
+  ]
+}
