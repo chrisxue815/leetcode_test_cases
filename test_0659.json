@@ -1,0 +1,22 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "nums": [1,2,3,3,4,5]
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "nums": [1,2,3,3,4,4,5,5]
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "nums": [1,2,3,4,4,5]
+      },
+      "expected": false
+    }
+  ]
+}
