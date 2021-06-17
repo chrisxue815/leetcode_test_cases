@@ -1,0 +1,25 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s": "abaac",
+        "cost": [1,2,3,4,5]
+      },
+      "expected": 3
+    },
+    {
+      "args": {
+        "s": "abc",
+        "cost": [1,2,3]
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "s": "aabaa",
+        "cost": [1,2,3,4,1]
+      },
+      "expected": 2
+    }
+  ]
+}
