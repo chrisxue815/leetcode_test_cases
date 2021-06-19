@@ -1,0 +1,95 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "s": "aa",
+        "p": "a"
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "s": "aa",
+        "p": "aa"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "aaa",
+        "p": "aa"
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "s": "aa",
+        "p": "*"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "aa",
+        "p": "a*"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "ab",
+        "p": "?*"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "aab",
+        "p": "c*a*b*"
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "s": "aa",
+        "p": "*aa"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "aa",
+        "p": "aa*"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "",
+        "p": "*"
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "",
+        "p": "?"
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "s": "",
+        "p": ""
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "s": "a",
+        "p": ""
+      },
+      "expected": false
+    }
+  ]
+}
