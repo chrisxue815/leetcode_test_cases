@@ -1,0 +1,34 @@
+{
+  "test_cases": [
+    {
+      "args": {
+        "n": 1
+      },
+      "expected": 12
+    },
+    {
+      "args": {
+        "n": 2
+      },
+      "expected": 54
+    },
+    {
+      "args": {
+        "n": 3
+      },
+      "expected": 246
+    },
+    {
+      "args": {
+        "n": 7
+      },
+      "expected": 106494
+    },
+    {
+      "args": {
+        "n": 5000
+      },
+      "expected": 30228214
+    }
+  ]
+}
