@@ -35,6 +35,12 @@
         "s": ")"
       },
       "expected": false
+    },
+    {
+      "args": {
+        "s": "["
+      },
+      "expected": false
     }
   ]
 }
